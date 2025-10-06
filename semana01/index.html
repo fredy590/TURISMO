@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Turismo en el Perú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6f9;
+            margin: 0;
+        }
+
+        header {
+            background-color: #0078d4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #005fa3;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #005fa3;
+            border-bottom: 2px solid #0078d4;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #0078d4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        form {
+            background-color: #e7f0fa;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Descubre el Perú</h1>
+        <p>Turismo, cultura y naturaleza en un solo lugar</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Destinos</li>
+            <li>Gastronomía</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- Sección 1 -->
+        <section>
+            <h2>🏔 Cusco</h2>
+            <p>
+                Cusco, la antigua capital del Imperio Inca, es uno de los destinos turísticos más importantes del Perú.
+                Su arquitectura colonial se mezcla con las ruinas incas, y desde aquí se parte hacia Machu Picchu.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg" alt="Machu Picchu">
+        </section>
+
+        <!-- Sección 2 -->
+        <section>
+            <h2>🏝 Arequipa</h2>
+            <p>
+                Conocida como "La Ciudad Blanca", Arequipa se destaca por su arquitectura hecha de sillar
+                y su imponente volcán Misti. Además, el Cañón del Colca es uno de los más profundos del mundo.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Arequipa_-_Plaza_de_Armas.jpg" alt="Arequipa">
+        </section>
+
+        <!-- Sección 3 -->
+        <section>
+            <h2>🌊 Iquitos</h2>
+            <p>
+                En plena Amazonía peruana, Iquitos es el punto de partida para explorar la selva tropical,
+                el río Amazonas y sus comunidades nativas.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Iquitos_Catedral.jpg" alt="Iquitos">
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section>
+            <h2>✉ Contáctanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Ana López" required>
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" placeholder="Ej. ana@gmail.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu consulta..."></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Turismo Perú - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
